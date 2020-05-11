@@ -6,17 +6,17 @@ public class MyStringBuilder {
     }
     
     public MyStringBuilder addString(String s) {
-        str += s;
+        str += s ;
         return this;
     }
     
     public MyStringBuilder addFloat(float f) {
-        str += f;
+        str += f ;
         return this;
     }
     
     public MyStringBuilder addBool(boolean b) {
-        str += b;
+        str += b ;
         return this;
     }
     
